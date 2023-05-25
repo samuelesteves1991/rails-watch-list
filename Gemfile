@@ -26,8 +26,10 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-
-# Use Redis adapter to run Action Cable in production
+gem "autoprefixer-rails"
+gem "font-awesome-sass", "~> 6.1"
+gem "simple_form"
+gem 'sassc-rails', '~> 2.1' # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
@@ -43,7 +45,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -64,7 +65,5 @@ group :development do
   # gem "spring"
 end
 
-gem 'rspec-rails', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
